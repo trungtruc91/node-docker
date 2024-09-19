@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "outDir": "build",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "rootDir": "."
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules/*", "./src/**/*.spec.ts", "./tests/**"]
+}
